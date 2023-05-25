@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230525141624">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- head -->
+
+<body>
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="header__container">
+				<div class="header__title">
+					<h2>CHECK OUT</h2>
+				</div>
+			</div>
+		</header>
+
+		<!-- header -->
+
+		<!-- main -->
+		<main class="page">
+			<div class="page__container">
+				<div class="page__body body-page">
+					<div class="body-page__main main-body">
+						<div class="main-body__title">
+							<h3>Place Your Order</h3>
+						</div>
+						<form action="" method="get" class="main-body__form form-body">
+							<div class="form-body__contact">
+								<div class="form-body__title">
+									<h4>Contact Details</h4>
+								</div>
+								<div class="form-body__inputs inputs-form">
+									<div class="inputs-form__item input-item">
+										<input id="name" autocomplete="off" type="text" placeholder="Name" class="input-item__input" />
+									</div>
+									<div class="inputs-form__item input-item">
+										<input id="surname" autocomplete="off" type="text" placeholder="Surname" class="input-item__input" />
+									</div>
+									<div class="inputs-form__item input-item">
+										<input id="email" autocomplete="off" type="email" placeholder="E-mail" class="input-item__input" />
+									</div>
+									<div class="inputs-form__item input-item">
+										<input id="phone-number" autocomplete="off" type="number" placeholder="Phone Number" class="input-item__input" />
+									</div>
+								</div>
+							</div>
+							<div class="main-body__products products-body">
+								<div class="products-body__title">
+									<h4>Shopping Bag</h4>
+								</div>
+								<div class="products-body__items items-body">
+									<div class="items-body__title">
+										<h4>Products</h4>
+									</div>
+									<div class="items-body__item item-product">
+										<div class="item-product__image">
+											<picture><source srcset="img/products/product-1.webp" type="image/webp"><img src="img/products/product-1.png" alt="product" /></picture>
+										</div>
+										<div class="item-product__name">
+											<h6>Sonos Sub Gen3 Black</h6>
+										</div>
+										<div class="item-product__price info-block">
+											<div class="info-block__text">Price</div>
+											<div class="info-block__number">1 333€</div>
+										</div>
+										<div class="item-product__quantity info-block">
+											<div class="info-block__text">Quantity</div>
+											<div class="info-block__number">1</div>
+										</div>
+										<div class="item-product__total info-block">
+											<div class="info-block__text">Amount</div>
+											<div class="info-block__number">1 333€</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-body__delivery delivery-form">
+								<div class="form-body__title">
+									<h4>Shipping Address</h4>
+								</div>
+								<div class="delivery-form__inputs delicery-inputs">
+									<div class="delicery-inputs__item input-item">
+										<input id="street" autocomplete="off" type="text" placeholder="Street" class="input-item__input delivery-input" />
+									</div>
+									<div class="delicery-inputs__item input-item">
+										<input id="apartment" autocomplete="off" type="text" placeholder="Appertment" class="input-item__input delivery-input" />
+									</div>
+									<div class="delicery-inputs__item input-item">
+										<input id="state" autocomplete="off" type="text" placeholder="State/Province" class="input-item__input delivery-input" />
+									</div>
+									<div class="delicery-inputs__item input-item">
+										<input id="city" autocomplete="off" type="text" placeholder="City" class="input-item__input delivery-input" />
+									</div>
+									<div class="delicery-inputs__item input-item">
+										<input id="country" autocomplete="off" type="text" placeholder="Country/Region" class="input-item__input delivery-input" />
+									</div>
+									<div class="delicery-inputs__item input-item">
+										<input id="postal-code" autocomplete="off" type="number" placeholder="Postal code" class="input-item__input delivery-input" />
+									</div>
+								</div>
+								<div class="form-body__button">
+									<button type="submit" class="address-button btn">
+										Save
+									</button>
+								</div>
+							</div>
+							<div class="form-body__payment payment-body">
+								<div class="form-body__title">
+									<h4>Payment Type</h4>
+								</div>
+								<div class="payment-body__item">
+									<div class="options">
+										<div class="options__item">
+											<input id="pay-pal" class="options__input" checked type="radio" value="paypal" name="payment-type" />
+											<label for="pay-pal" class="options__label">
+												<img src="img/payment/paypal-icon.svg" alt="" />
+												<span class="options__text">PayPal</span>
+											</label>
+											<div class="additional-info">
+												<div class="paypal-block">
+													<a href="#!">
+														<picture><source srcset="img/payment/paypal.webp" type="image/webp"><img src="img/payment/paypal.png" alt="img" /></picture>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="options__item">
+											<input id="debit" class="options__input" type="radio" value="debit" name="payment-type" />
+											<label for="debit" class="options__label">
+												<img src="img/payment/secure-icon.svg" alt="" />
+												<span class="options__text">Credit / Debit Card</span>
+											</label>
+											<div class="additional-info">
+												<div class="credit-block">
+													<picture><source srcset="img/payment/secure-payment.webp" type="image/webp"><img src="img/payment/secure-payment.png" alt="img" /></picture>
+													<a href="#!" class="secure-payment-link">Pay</a>
+												</div>
+											</div>
+										</div>
+										<div class="options__item">
+											<input id="google-pay" class="options__input" type="radio" value="google-pay" name="payment-type" />
+											<label for="google-pay" class="options__label">
+												<img src="img/payment/google-icon.svg" alt="" />
+												<span class="options__text">Google Pay</span>
+											</label>
+											<div class="additional-info">
+												<div class="google-block">
+													<a href="#!">
+														Buy with
+														<span>
+															<img src="img/payment/google-text.svg" alt="google-text" />
+														</span>
+														Pay
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="options__item">
+											<input id="payment-transfer" class="options__input" type="radio" value="payment-transfer" name="payment-type" />
+											<label for="payment-transfer" class="options__label">
+												<img src="img/payment/transfer-icon.svg" alt="" />
+												<span class="options__text">Payment by transfer</span>
+											</label>
+											<div class="additional-info">
+												<div class="transfer-block">
+													<p>Одержувач: ТОВ "Хостінг Україна"</p>
+													<p>ЄДРПОУ: 37593550</p>
+													<p>IBAN: UA843052990000026001045011023</p>
+													<p>
+														Назначение платежа: Передплата за послуги хостингу
+														згідно рахунку 1-6672096
+													</p>
+													<a href="#!" class="paid-btn">Paid</a>
+												</div>
+											</div>
+										</div>
+										<div class="options__item">
+											<input id="cripto" class="options__input" type="radio" value="cripto" name="payment-type" />
+											<label for="cripto" class="options__label">
+												<span class="options__text">Crypto</span>
+											</label>
+											<div class="additional-info">
+												<div class="cripto-block">
+													<div class="cripto-block__info">
+														<img src="img/payment/bitcoin.svg" alt="bitok" />
+														<p>BitCoin</p>
+													</div>
+													<div class="cripto-block__info">
+														<img src="img/payment/usdt.svg" alt="bitok" />
+														<p>USDT</p>
+													</div>
+													<div class="cripto-block__info">
+														<img src="img/payment/eth.svg" alt="bitok" />
+														<p>ETH</p>
+													</div>
+													<a href="#!" class="paid-btn">Paid</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="body-page__aside aside-body">
+						<div class="aside-body__title">
+							<h4>Total</h4>
+						</div>
+						<div class="aside-body__price price-body">
+							<div class="price-body__text">
+								<p>Product For The Amount</p>
+							</div>
+							<div class="price-body__number">
+								<p>€2 666</p>
+							</div>
+						</div>
+						<div class="aside-body__delivery delivery-body">
+							<div class="delivery-body__text">
+								<p>Delivery charges</p>
+							</div>
+							<div class="delivery-body__text">
+								<p>Free</p>
+							</div>
+						</div>
+						<div class="aside-body__total total-body">
+							<div class="total-body__text">
+								<p>Total:</p>
+							</div>
+							<div class="total-body__number">
+								<p>€2 666</p>
+							</div>
+						</div>
+						<div class="aside-body__text">
+							<p>
+								The stock of flash deals is limited, and the final discounts
+								on the stock of goods actually paid shall prevail
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- main -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__title">
+						<h4>Contact Us</h4>
+					</div>
+					<div class="footer__link">
+						<img src="img/footer/mail.svg" alt="mail" />
+						<a href="email:sonossets@gmail.com">sonossets@gmail.com</a>
+					</div>
+					<div class="footer__link">
+						<img src="img/footer/phone.svg" alt="mail" />
+						<a href="tel:+33758286305">+33 7 58 28 63 05</a>
+					</div>
+				</div>
+				<div class="footer__action action-block">
+					<div class="action-block__info info-action">
+						<div class="info-action__copy">
+							<p>© 2023 Soundmag. All rights reserved</p>
+						</div>
+						<div class="info-action__payment">
+							<img src="img/footer/visa.svg" alt="" />
+						</div>
+						<div class="info-action__payment">
+							<img src="img/footer/visa-by.svg" alt="" />
+						</div>
+						<div class="info-action__payment">
+							<img src="img/footer/mastercard.svg" alt="" />
+						</div>
+						<div class="info-action__payment">
+							<img src="img/footer/mastercard-secure.svg" alt="" />
+						</div>
+					</div>
+					<div class="action-block__social social-media">
+						<div class="social-media__text">Social Media</div>
+						<div class="social-media__icon">
+							<img src="img/footer/telegram.svg" alt="social" />
+						</div>
+
+						<div class="social-media__icon">
+							<img src="img/footer/fb.svg" alt="social" />
+						</div>
+						<div class="social-media__icon">
+							<img src="img/footer/whatsapp.svg" alt="social" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- footer -->
+	</div>
+	<!-- script -->
+	<script src="js/app.min.js?_v=20230525141624"></script>
+	<!-- script -->
+</body>
+
+</html>
